@@ -1,0 +1,47 @@
+    body { 
+        font-family: sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background: url('image.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #chat { 
+        max-width: 600px; 
+        margin: 40px auto;
+        margin-top: 150px; 
+        background: white; 
+        padding: 20px; 
+        border-radius: 8px; 
+    }
+    ul { 
+        list-style: none; 
+        padding: 0; 
+    }
+    li { 
+        padding: 5px 10px; 
+        border-bottom: 1px solid #ccc; 
+    }
+    form { 
+        display: flex; 
+    }
+    input { 
+        flex: 1; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+    }
+    button { 
+        padding: 10px 20px; 
+        margin-left: 10px; 
+    }
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0%;
+        color: red;
+        background-color: rgb(5, 5, 44);
+    }
